@@ -1,0 +1,74 @@
+body {
+  min-width: 100%;
+  min-height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) no-repeat fixed, url("https://static.pexels.com/photos/48126/books-education-school-literature-48126.jpeg") no-repeat fixed center; 
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  color: orange;
+  font-family: serif;
+  font-weight: 900;
+  font-size: 58px;
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+form {
+  width: 318px; 
+  margin-top: 60px;
+}
+
+.search {
+  align-content: center;
+  padding: 8px 15px;
+  background: gray;
+  border: 0px solid #dbdbdb;
+  box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+}
+
+.icon {
+  position: relative;
+  padding: 6px 15px;
+  border-radius: 10%;
+  border: 2px solid #207cca;
+  background: -webkit-linear-gradient(90deg, #207cca, #fff);
+  color: #fafafa;
+  box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+a.icon {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.icon:hover  {
+  background-color: #fafafa;
+  color: #207cca;
+  cursor: pointer;
+}
+
+#results {
+  margin-top: 200px;
+  color: white;
+}
+
+.result {
+  background-color: gray;
+  margin: 40px;
+  padding: 20px;
+  box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.result a {
+  color: orange;
+}
+
